@@ -1,0 +1,149 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10rem 0 10rem;
+}
+
+.container {
+    background-color: #2D25A0;
+    padding: 3rem 5rem;
+}
+
+.banner:hover img {
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 5s ease-in-out;
+}
+
+.football {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    /* width:458px;
+    height:230px; */
+    /* margin:207px 102px 240px 156px; */
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 1.2rem 3rem;
+}
+
+.banner img {
+    width: 556.01px;
+    height: 438px;
+
+}
+
+/* player item */
+.player-list {
+    margin-top: 85px;
+    background-color: #f7f5f5;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.player {
+    border: 1px solid lightgray;
+    padding: .7rem;
+    margin: .5rem;
+    border-radius: 3px;
+    background-color: white;
+
+}
+
+.player .thumbnail img {
+    width: 100%;
+    /* height:256px; */
+    /* padding:19px; */
+}
+
+
+/* highlights start */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+/* .highlights-title .highlights-info{
+     margin-top:30px;
+ } */
+.highlights-title {
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+.highlights-info {
+    font-weight: 404px;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.highlights-image {
+    margin-top: 24px;
+}
+
+.highlights-image img {
+    width: 567px;
+    height: 427px;
+}
+
+/* footer starts */
+
+footer {
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 100px;
+    background-color: white;
+
+}
+
+.icon a {
+    margin: auto;
+    height: 25px;
+    width: 25px;
+    padding: .3rem;
+    background-color: #c5c5c5;
+    border-radius: 50%;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    padding: 0.5rem;
+}
+
+.copyright {
+    font-weight: 400;
+    padding-left: 2rem;
+}
